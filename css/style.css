@@ -1,0 +1,126 @@
+/* line 1, E:/web/project/LITS/css/style.scss */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: auto;
+  font-size: 24px;
+  font-family: monospace; }
+
+/* line 10, E:/web/project/LITS/css/style.scss */
+body {
+  background-image: url(../img/bg.jpg); }
+
+/* line 13, E:/web/project/LITS/css/style.scss */
+main {
+  width: 500px;
+  height: 400px;
+  margin: 100px auto; }
+
+/* line 18, E:/web/project/LITS/css/style.scss */
+header {
+  height: 80px;
+  background: #FC4F51;
+  border-radius: 10px 10px 0 0;
+  text-align: center; }
+
+/* line 24, E:/web/project/LITS/css/style.scss */
+span {
+  font-size: 36px;
+  line-height: 60px; }
+
+/* line 28, E:/web/project/LITS/css/style.scss */
+.next, .prev {
+  float: right;
+  height: 80px;
+  width: 50px;
+  background: #FC4F51;
+  border-radius: 0 10px 0 0;
+  border: none; }
+
+/* line 36, E:/web/project/LITS/css/style.scss */
+.prev {
+  float: left;
+  border-radius: 10px 0 0 0; }
+
+/* line 42, E:/web/project/LITS/css/style.scss */
+button,
+button:active,
+button:focus {
+  outline: none; }
+
+/* line 45, E:/web/project/LITS/css/style.scss */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+/* line 50, E:/web/project/LITS/css/style.scss */
+article {
+  height: 295px;
+  background: rgba(230, 230, 230, 0.68);
+  border-radius: 0 0 10px 10px; }
+
+/* line 55, E:/web/project/LITS/css/style.scss */
+article ul > li {
+  text-align: center;
+  display: inline-block;
+  float: left;
+  width: 7.887499%;
+  padding: 15px;
+  border: 1px solid #d6d6d6;
+  color: #868686;
+  background: rgba(230, 230, 230, 0.68); }
+
+/* line 65, E:/web/project/LITS/css/style.scss */
+li:hover {
+  color: #FC4F51; }
+
+/* line 68, E:/web/project/LITS/css/style.scss */
+article ul > li:nth-child(29) {
+  border-radius: 0 0 0 10px; }
+
+/* line 71, E:/web/project/LITS/css/style.scss */
+article ul > li:nth-child(35) {
+  border-radius: 0 0 10px 0; }
+
+/* line 74, E:/web/project/LITS/css/style.scss */
+article ul > li:nth-child(2n) {
+  background: rgba(230, 230, 230, 0.5); }
+
+/* line 77, E:/web/project/LITS/css/style.scss */
+article ul > li:nth-child(11) {
+  border-radius: 100%;
+  background: #ff5151;
+  color: #868686; }
+
+/* line 82, E:/web/project/LITS/css/style.scss */
+article ul > li:nth-child(23) {
+  position: relative; }
+
+/* line 85, E:/web/project/LITS/css/style.scss */
+article ul > li:nth-child(23)::after {
+  content: url(../img/favicon.ico);
+  display: block;
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 0px; }
+
+/* line 93, E:/web/project/LITS/css/style.scss */
+footer {
+  clear: both;
+  margin-top: 10px;
+  height: 24px;
+  border: 1px solid #d6d6d6;
+  border-radius: 10px;
+  background: rgba(230, 230, 230, 0.68); }
+
+/* line 101, E:/web/project/LITS/css/style.scss */
+footer ul > li {
+  text-align: center;
+  float: left;
+  display: inline-block;
+  width: 14.2884%; }
+
+/*# sourceMappingURL=style.css.map */
